@@ -1,5 +1,5 @@
 # RadarPlotGenerator
-A tool used for generating radar plots to assist with the interpretation of accelerometry data, as described in [Rowlands et al. (2019)](https://sportsmedicine-open.springeropen.com/articles/10.1186/s40798-019-0225-9)
+A tool used for generating radar plots to assist with the interpretation of accelerometry data, as described in [Rowlands et al. (2019)](https://sportsmedicine-open.springeropen.com/articles/10.1186/s40798-019-0225-9).
 
 
 # Getting started
