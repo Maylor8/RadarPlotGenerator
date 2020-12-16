@@ -24,7 +24,7 @@
     Group.no    <- 3                                    # Number of groups to be compared  
     Group.names <- c("Healthy",	"Overweight",	"Obese")  # Names of comparison groups
     Metric.no   <- 5                                    # Number of different MX metrics used
-    Metriclist  <- c("M60", "M30", "M10", "M5", "M2")   # Quote each MX metric used in descending order
+    Metriclist  <- c("M60", "M30", "M10", "M5", "M2")   # Quote each MX metric used in descending order. Report MX values in minutes to ensure they are ordered correctly.
 
   # Make the data frame (Skip if you are importing an existing data frame)
     Metric  <- c(rep(c(Metriclist), each = Group.no))
@@ -54,8 +54,9 @@
     temp <- paste("M", temp, sep="")
     Data$Metric <- factor(Data$Metric, levels = temp)  
     Data$Group <- factor(Data$Group, levels = Group.names)  
-
-
+  
+  # Optional alternative method of specifying the order of Mx metrics - deactivate lines 48-56 first.
+  # Data$Metric <- factor(Data$Metric,levels = c("M60", "M30", "M10", "M5", "M2))
 
 # 4. Generate plot --------------------------------------------------------
 
