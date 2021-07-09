@@ -1,4 +1,3 @@
-![Radar Plot v2](https://user-images.githubusercontent.com/67643830/125089279-2bec8780-e0c6-11eb-9c0c-91e95a20323f.jpg)
 # RadarPlotGenerator
 A tool used for generating radar plots to assist with the interpretation of accelerometry data, as described in [Rowlands et al. (2019)](https://sportsmedicine-open.springeropen.com/articles/10.1186/s40798-019-0225-9).
 
@@ -17,3 +16,7 @@ When using Radar plot generator, please cite [Rowlands et al. (2019)](https://sp
 DOI: 10.1186/s40798-019-0225-9.
 
 Please also refer to this github page so that users understand that this is freely available for them to use.
+
+
+# Example Plot (v2)
+![Radar Plot v2](https://user-images.githubusercontent.com/67643830/125089279-2bec8780-e0c6-11eb-9c0c-91e95a20323f.jpg)
