@@ -14,4 +14,5 @@ Please contact Ben Maylor (bm259@leicester.ac.uk) for any enquiries.
 When using Radar plot generator, please cite [Rowlands et al. (2019)](https://sportsmedicine-open.springeropen.com/articles/10.1186/s40798-019-0225-9)
 'Enhancing the value of accelerometer-assessed physical activity: meaningful visual comparisons of data-driven translational accelerometer metrics' 
 DOI: 10.1186/s40798-019-0225-9.
+
 Please also refer to this github page so that users understand that this is freely available for them to use.
