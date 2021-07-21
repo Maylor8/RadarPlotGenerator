@@ -94,11 +94,14 @@ dCI$Group <- factor(dCI$Group, levels = Group.names)
   #Deactivate this line below if you do not want shadings for the error
     geom_polygon(aes(x=Metric,y=CI, group = Group, fill=Group), data=dCI, alpha=.3) + 
   
-  # OPTIONAL: Specify group colours/shade - Activate and edit one only at a time
+  # OPTIONAL: Specify group colours/shade - Activate and edit one only at a time for each colour_manual and fill_manual
   # A comprehensive list of colours can be found here: http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf
-  # Examples
-  # scale_colour_manual(values = c("grey10", "grey30", "grey50", "grey70", "grey90"),name = "Group") +
-  # scale_colour_manual(values = c("black", "green", "blue","red","yellow"),name = "Group") +
+ 
+  # Examples of line changes
+  #   scale_colour_manual(values = c("grey10", "grey30", "grey50", "grey70", "grey90"),name = "Group") +
+  #   scale_colour_manual(values = c("black", "green", "blue","red","yellow"),name = "Group") +
+  # Example of error shading change
+  #   scale_fill_manual(values = c("grey15", "grey40", "grey65"), name = "Group") +
   
   # Set Y axis gridlines
     geom_hline(yintercept = seq(Ystart,Yend, by = Yint), alpha = 0.8, colour = "grey70", size = 0.2) + # Automatically uses the Y axis interval value specified previously
